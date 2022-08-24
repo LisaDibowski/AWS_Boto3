@@ -1,0 +1,20 @@
+Projektantrag:
+
+Projektbezeichnung:
+
+Automatisieren von Amazon Web Service Instanzen mit Python3 (Boto3 SDK) Skripten.
+
+1.1 Kurzform der Aufgabenerstellung:
+
+Für die Placeholder GmBh soll der Workflow beim aufsetzen und bereitstellen von Amazon Web Service Instanzen stark optimiert werden. 
+Hierzu soll eine größere Anzahl von Boto3 Skripten konzeptiert und entwickelt werden, mit denen das interne Team Kundenwünsche effizient und zielgerichtet umsetzen kann. 
+Dadurch wird das skalieren und verwalten zukünftlicher und bestehender Instanzen merkbar vereinfacht.
+
+1.2 Ist-Analyse
+
+Aufgrund wachsender Ansprüche von Kunden, die das Unternehmen, die Placeholder GmBh in letzter Zeit gewonnen hat wurde sich vor sechs Monaten entschieden vermehrt in den Cloud Bereich zu gehen um verschiedene Services bereitzustellen. 
+Interne Gespräche haben dazu geführt das ein neues Team gebildet wurde, das aktuell dafür verantwortlich ist Instanzen in der Amazon Web Service Managment Konsole zu erstellen und von dieser aus zu konfigurieren. 
+Ein typischer Ablauf ist also das neue Aufträge und Änderungswünsche an Firmeninterne Systeme gesendet werden und dort in einem Ticket erfasst und verteilt werden. 
+Das führt dazu das einzelne Mitarbeiter teilweise lange Zeit mit simplen Aufgaben beschäftigt sind die eigentlich zentral über Skripte automatisiert werden könnten. 
+Auch der Sicherheitsaspekt ist momentan nicht optimal, da sich mehrere Mitarbeiter Security Schlüssel teilen und diese lokal auf ihren Arbeitsmaschinen liegen. 
+Dieses Vorgehen führt dazu das von Zeit zu Zeit neue Root Schlüssel generiert und an mehrere Mitarbeiter verteilt werden, was ebenfalls Einschritte in der Effizienz mit sich führt. 
