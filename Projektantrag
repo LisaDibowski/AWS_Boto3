@@ -26,6 +26,8 @@ Jede weitere Instanz und jeder weitere Kunde bringt also erhebende Schwierigkeit
 
 2.Zielsetzung entwickeln / Soll-Konzept
 
+2.1 Was soll am Ende des Projekts erreicht sein und welche Probleme wurden gelöst?
+
 Durch Python3 basierte Boto3 Skripte soll es zukünftlich ermöglicht werden ohne großen Zeitaufwand, Änderungen und Konfigurationen von AWS Instanzen durchzuführen.
 Viele der Kunden der Placeholder GmbH benutzen AWS Instanzen zum speichern wichtiger Daten. 
 Ein manueller file upload bei 5 verschiedenen S3 Buckets ist noch ohne weiteres möglich, wenn es sich bei größeren Kunden allerdings um mehrere hundert S3 Buckets handelt sollen zukünftlich interne Boto3 Skripte für diese Aufgabe zum Einsatz kommen.
@@ -34,3 +36,17 @@ Momentan wird das aufsetzen und zur Verfügung stellen dieser Instanzen noch man
 Weitere zu automatisierende Services sind Amazon CloudWatch was von vielen Kunden zum event logging und stellen von Alarmen benutzt wird. 
 Im Webhosting Bereich sollen Boto3 Skripte in Zukunft helfen die Konfiguration des relevanten S3 Buckets abzurufen beziehungsweise neue Konfigurationen zu setzen.
 Auch das verschlüsseln von wichtigen sensiblen Daten soll in Zukunft automatisiert über den AWS Key Managment Service geregelt werden. 
+
+2.2. Welche Anforderungen müssen erfüllt sein?
+
+Folgende Anforderungen sollen durch die Boto3 Skripte erfüllt werden:
+- Unternehmensweite Standardmethoden zur Verwaltung der Instanzen
+- Sicherheit durch verbessertes Key Managment
+- Der Python3 Code soll getestet sein und ohne Syntaxfehler
+- Auslesen von Konfigurationen einzelner AWS Instanzen
+- Aufspielen von Konfigurationen bestehender und neuer AWS Instanzen
+- Vereinfachtes Logging ohne Einsatz der Webkonsole
+- Einfache Aufgaben sollen dokumentiert und komplett automatisiert sein.
+- Skripte sollen vereinzelt durch Cron-Jobs regelmäßig ausgeführt sein
+- Versionskontrollen und Updates dürfen nicht mehr manuelle Aufgabe der Mitarbeiter sein.
+- Der Code muss gut dokumentiert und zentral für die Mitarbeiter zur Verfügung stehen.
