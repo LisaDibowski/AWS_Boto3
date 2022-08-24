@@ -18,3 +18,7 @@ Ein typischer Ablauf ist also das neue Aufträge und Änderungswünsche an Firme
 Das führt dazu das einzelne Mitarbeiter teilweise lange Zeit mit simplen Aufgaben beschäftigt sind die eigentlich zentral über Skripte automatisiert werden könnten. 
 Auch der Sicherheitsaspekt ist momentan nicht optimal, da sich mehrere Mitarbeiter Security Schlüssel teilen und diese lokal auf ihren Arbeitsmaschinen liegen. 
 Dieses Vorgehen führt dazu das von Zeit zu Zeit neue Root Schlüssel generiert und an mehrere Mitarbeiter verteilt werden, was ebenfalls Einschritte in der Effizienz mit sich führt. 
+Durch die fehlende automatisierung ist es desweiteren schwierig einen allgemeinen Standard zu gewährleisten. 
+Vereinzelte Mitarbeiter brauchen verschieden viel Zeit um Aufgaben zu bewältigen, ein gemeinsam geführtes Repository könnte hierbei sehr von Nutzen sein. 
+Diese und weitere Zustände haben dazu geführt das es bei der steigenden Anzahl und Ansprüchen von Kunden zu langen Wartezeiten kommt worunter die normalen hohen Standards der Firma leiden. 
+Jede weitere Instanz und jeder weitere Kunde bringt also erhebende Schwierigkeiten und komplexe Problembewältigung mit sich. 
