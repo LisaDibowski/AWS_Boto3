@@ -22,3 +22,15 @@ Durch die fehlende automatisierung ist es desweiteren schwierig einen allgemeine
 Vereinzelte Mitarbeiter brauchen verschieden viel Zeit um Aufgaben zu bewältigen, ein gemeinsam geführtes Repository könnte hierbei sehr von Nutzen sein. 
 Diese und weitere Zustände haben dazu geführt das es bei der steigenden Anzahl und Ansprüchen von Kunden zu langen Wartezeiten kommt worunter die normalen hohen Standards der Firma leiden. 
 Jede weitere Instanz und jeder weitere Kunde bringt also erhebende Schwierigkeiten und komplexe Problembewältigung mit sich. 
+
+
+2.Zielsetzung entwickeln / Soll-Konzept
+
+Durch Python3 basierte Boto3 Skripte soll es zukünftlich ermöglicht werden ohne großen Zeitaufwand, Änderungen und Konfigurationen von AWS Instanzen durchzuführen.
+Viele der Kunden der Placeholder GmbH benutzen AWS Instanzen zum speichern wichtiger Daten. 
+Ein manueller file upload bei 5 verschiedenen S3 Buckets ist noch ohne weiteres möglich, wenn es sich bei größeren Kunden allerdings um mehrere hundert S3 Buckets handelt sollen zukünftlich interne Boto3 Skripte für diese Aufgabe zum Einsatz kommen.
+Bei anderen Kunden hingegen werden AWS EC2 (Amazon Elastic Compute Cloud) Instanzen eingesetzt um dynamische Rechenleistung zur bereitzustellen.
+Momentan wird das aufsetzen und zur Verfügung stellen dieser Instanzen noch manuell durchgeführt. 
+Weitere zu automatisierende Services sind Amazon CloudWatch was von vielen Kunden zum event logging und stellen von Alarmen benutzt wird. 
+Im Webhosting Bereich sollen Boto3 Skripte in Zukunft helfen die Konfiguration des relevanten S3 Buckets abzurufen beziehungsweise neue Konfigurationen zu setzen.
+Auch das verschlüsseln von wichtigen sensiblen Daten soll in Zukunft automatisiert über den AWS Key Managment Service geregelt werden. 
