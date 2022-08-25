@@ -50,3 +50,34 @@ Folgende Anforderungen sollen durch die Boto3 Skripte erfüllt werden:
 - Skripte sollen vereinzelt durch Cron-Jobs regelmäßig ausgeführt sein
 - Versionskontrollen und Updates dürfen nicht mehr manuelle Aufgabe der Mitarbeiter sein.
 - Der Code muss gut dokumentiert und zentral für die Mitarbeiter zur Verfügung stehen.
+
+3.2 Aufgaben auflisten
+
+Analyse:
+	Durchführung einer Ist-Analyse
+	Ermittlung von Use Cases von AWS Servicen
+	Erstellen eines Soll-Konzepts
+	Beurteilung der Möglichkeiten und erforderlichen Werkzeuge
+	Erstellung eines Laftenhefts
+
+Entwurf:
+	AWS Test Instanzen konzipieren
+	Planung der Umsetzung durch studieren der AWS Dokumentation
+	Planung der Skripte durch studieren der Boto3 Dokumentation
+	Erstellung eines Pflichthefts
+	Planen von Lambda Funktionen
+
+Implementierung:
+	AWS Test Instanzen werden aufgesetzt
+	Benötigte Skripte werden geschrieben und dokumentiert
+	Wichtige Sicherheitsfeatures von Amazon werden umgesetzt
+	Implementierung und testen von einfachen session Skripts
+	Implementierung und testen von komplexeren Skripts für verschiedene use cases
+	Implementierung der Lambda Funktionen
+	Aufsetzen benötigter Cron-Jobs
+
+
+Dokumentation:
+	Erstellung einer Projektdokumentation
+	Erstellung der Entwicklerdokumentation
+	Erstellung der Benutzerdokumentation
