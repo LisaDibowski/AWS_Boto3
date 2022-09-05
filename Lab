@@ -1,0 +1,52 @@
+LAB: 
+
+Mit h5p.org
+
+Punkt 1: Was ist AWS? 
+Punkt 2: Was für Service Kategorien gibt es?
+Punkt 3: Was für Automatisierungsvorteile?
+
+
+Punkt 1: 
+
+Was ist AWS und warum wird es benutzt. 
+
+Vorteile und Nachteile. 
+
+Unterpunkt 1: 
+
+-Instanz erstellen Ablauf am Beispiel von einem RHEL Linux Server
+-Rootkeys erstellen und verwalten
+-SSH Verbindung
+
+Warum AWS nicht so einschüchternd ist es wie es klingt.
+
+
+Punkt 2:
+
+Compute
+Storage (S3 Buckets)
+Database (DynamoDB)
+Networking und Content Delivery (AWS als Hosting Platform)
+Analytics
+Machine Learning (Ideen und Anregungen)
+Security, Identity & Compliance
+
+Unterpunkt: 
+
+-Liste mit weiteren products aber ohne Beispiele:
+
+https://aws.amazon.com/products/?aws-products-all.sort-by=item.additionalFields.productCategory&aws-products-all.sort-order=asc&awsf.re%3AInvent=*all&awsf.Free%20Tier%20Type=*all&awsf.tech-category=*all
+
+Punkt 3:
+
+Wie können bestimmte Tasks automatisiert werden an 2 Beispielen:
+
+-Boto3 erklären und Beispielhaft zeigen
+-Lambda funktionen erklären und Beispielhaft zeigen
+
+
+Abschluss:
+
+Quiz zu einfachen Fragen mithilfe von h5p.org erstellt.
+
